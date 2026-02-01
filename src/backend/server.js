@@ -56,7 +56,7 @@ app.post('/send-email', (req, res) => {
 });
 
 // Servir les fichiers statiques du dossier 'dist'
-const distPath = path.join(__dirname, '../../../dist');
+const distPath = path.join(__dirname, '../../dist');
 app.use(express.static(distPath));
 
 // Rediriger toutes les requêtes non-API vers index.html
@@ -69,12 +69,12 @@ app.use((req, res, next) => {
 });
 
 // Écouter sur l'IP et le port fournis par Alwaysdata
-const ip = process.env.IP || '::';
-const port = process.env.PORT || 8100;
+const ip = process.env.IP;  // Utilisez l'IP fournie par Alwaysdata
+const port = process.env.PORT;  // Utilisez le port fourni par Alwaysdata
+
 app.listen(port, ip, () => {
   console.log(`Serveur démarré sur http://[${ip}]:${port}`);
-}).on('error', (err) => {
-  console.error('Erreur lors du démarrage du serveur :', err);
 });
+
 
 
