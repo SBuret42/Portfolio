@@ -56,11 +56,11 @@ app.post('/send-email', (req, res) => {
 });
 
 // Servir les fichiers statiques du dossier 'dist'
-app.use(express.static(path.join(__dirname, '../../dist')));
+app.use(express.static(path.join(__dirname, '../../../dist')));
 
 // Rediriger toutes les requêtes vers index.html
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, '../../dist', 'index.html'));
+  res.sendFile(path.join(__dirname, '../../../dist', 'index.html'));
 });
 
 // Écouter sur l'IP et le port fournis par Alwaysdata
