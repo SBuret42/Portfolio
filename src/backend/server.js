@@ -7,7 +7,8 @@ const path = require('path'); // Ajout pour servir les fichiers statiques
 const app = express();
 
 // Configuration de CORS pour Alwaysdata (remplacez l'URL par celle de votre site)
-app.use(cors({ origin: 'http://sylvain-buret.alwaysdata.net' }));
+app.use(cors({ origin: ['http://sylvain-buret.alwaysdata.net', 'https://sylvain-buret.alwaysdata.net'] }));
+
 
 app.use(bodyParser.json());
 
@@ -56,17 +57,15 @@ app.post('/send-email', (req, res) => {
 });
 
 // Servir les fichiers statiques du dossier 'dist'
-const distPath = path.join(__dirname, '../../dist');
+const distPath = path.join(__dirname, '../../dist'); // ou './dist' selon votre structure
 app.use(express.static(distPath));
 
 // Rediriger toutes les requêtes non-API vers index.html
 app.use((req, res, next) => {
-  if (!req.path.startsWith('/api/')) { // Exclure les routes API si nécessaire
-    res.sendFile(path.join(distPath, 'index.html'));
-  } else {
-    next();
-  }
+  console.log(`Requête reçue : ${req.method} ${req.path}`);
+  next();
 });
+
 
 // Écouter sur l'IP et le port fournis par Alwaysdata
 const ip = process.env.IP;  // Utilisez l'IP fournie par Alwaysdata
