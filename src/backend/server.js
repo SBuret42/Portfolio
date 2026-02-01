@@ -55,17 +55,17 @@ app.post('/send-email', (req, res) => {
   });
 });
 
-// Servir les fichiers statiques du dossier 'dist' (généré par Vue.js)
-app.use(express.static(path.join(__dirname, 'dist')));
+// Servir les fichiers statiques du dossier 'dist'
+app.use(express.static(path.join(__dirname, '../../dist')));
 
-// Rediriger toutes les requêtes vers index.html (pour le routage Vue.js)
+// Rediriger toutes les requêtes vers index.html
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'dist', 'index.html'));
+  res.sendFile(path.join(__dirname, '../../dist', 'index.html'));
 });
 
 // Écouter sur l'IP et le port fournis par Alwaysdata
-const ip = process.env.IP || '127.0.0.1'; // Alwaysdata injecte l'IP
-const port = process.env.PORT || 3000;   // Alwaysdata injecte le port
+const ip = process.env.IP || '::';
+const port = process.env.PORT || 8100;
 app.listen(port, ip, () => {
-  console.log(`Serveur démarré sur http://${ip}:${port}`);
+  console.log(`Serveur démarré sur http://[${ip}]:${port}`);
 });
