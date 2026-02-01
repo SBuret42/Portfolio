@@ -2,9 +2,13 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const nodemailer = require('nodemailer');
 const cors = require('cors');
+const path = require('path'); // Ajout pour servir les fichiers statiques
 
 const app = express();
-app.use(cors({ origin: 'http://localhost:5173' }));
+
+// Configuration de CORS pour Alwaysdata (remplacez l'URL par celle de votre site)
+app.use(cors({ origin: 'http://sylvain-buret.alwaysdata.net' }));
+
 app.use(bodyParser.json());
 
 // Configuration de Nodemailer
@@ -28,6 +32,7 @@ transporter.verify((error, success) => {
   }
 });
 
+// Route pour envoyer un email
 app.post('/send-email', (req, res) => {
   const { name, subject, message } = req.body;
   console.log('Données reçues :', { name, subject, message });
@@ -50,7 +55,17 @@ app.post('/send-email', (req, res) => {
   });
 });
 
-const PORT = 3000;
-app.listen(PORT, () => {
-  console.log(`Serveur démarré sur http://localhost:${PORT}`);
+// Servir les fichiers statiques du dossier 'dist' (généré par Vue.js)
+app.use(express.static(path.join(__dirname, 'dist')));
+
+// Rediriger toutes les requêtes vers index.html (pour le routage Vue.js)
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'dist', 'index.html'));
+});
+
+// Écouter sur l'IP et le port fournis par Alwaysdata
+const ip = process.env.IP || '127.0.0.1'; // Alwaysdata injecte l'IP
+const port = process.env.PORT || 3000;   // Alwaysdata injecte le port
+app.listen(port, ip, () => {
+  console.log(`Serveur démarré sur http://${ip}:${port}`);
 });
