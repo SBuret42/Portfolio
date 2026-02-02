@@ -6,6 +6,7 @@ import projetRobotView from '../views/projetRobotView.vue';
 import projetClassificateurView from '../views/projetClassificateurView.vue';
 import projetSiteInstitutionnelView from '../views/projetSiteInstitutionnelView.vue';
 import projetAnalyseBDView from '../views/projetAnalyseBDView.vue';
+import NotFoundView from '../views/NotFoundView.vue'
 
 const routes = [
   {
@@ -37,6 +38,12 @@ const routes = [
     name: 'projetAnalyseBD',
     component: projetAnalyseBDView,
   },
+
+  {
+      path: '/:pathMatch(.*)*',
+      name: 'NotFound',
+      component: NotFoundView
+  }
 ];
 
 const router = createRouter({
