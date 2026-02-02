@@ -10,7 +10,7 @@ import ProjetCompo from '../components/projetCompo.vue';
         <NavbarHaut></NavbarHaut>
         <Main>
             <ProjetCompo
-                link="/projetNDI"
+                link="/NotFound"
                 title="Nuit de l'info 2025"
                 description="Une compétition de dev où le but est de réaliser un site web en groupe, le conceptualiser, réaliser et déployer en 16h maximum."
                 :technos="['/img/vue-logo.png','/img/html.png','/img/CSS3_logo.svg']"
@@ -18,7 +18,7 @@ import ProjetCompo from '../components/projetCompo.vue';
                 img="/img/ndi.jpg"
             />
             <ProjetCompo
-                link="/projetCodamasy"
+                link="/NotFound"
                 title="Site Codamasy"
                 description="Réalisation d'un petit site de présentation de l'entreprise Codamasy durant un stage d'un mois durant l'été 2025."
                 :technos="['/img/html.png','/img/CSS3_logo.svg']"
