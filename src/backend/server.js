@@ -23,15 +23,13 @@ app.use(bodyParser.json());
 
 // Configuration de Nodemailer
 const transporter = nodemailer.createTransport({
-  host: 'smtp.gmail.com',
-  port: 587,
-  secure: false,
+  service: 'gmail',
   auth: {
     user: process.env.MAIL_USER,
     pass: process.env.MAIL_PASS,
-  },
-  tls: { rejectUnauthorized: false },
+  }
 });
+
 
 // Test de la connexion SMTP
 transporter.verify((error, success) => {
