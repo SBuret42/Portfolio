@@ -15,7 +15,7 @@ import ProjetCompo from '../components/projetCompo.vue';
                 description="Réalisation d'une application web en groupe de 7, un projet vraiment complet et long : conceptualisation, réalisation de maquettes, organisation du groupe, etc... Un projet vraiment complet que j'ai adoré faire avec des amis."
                 :technos="['/img/vue-logo.png','/img/html.png','/img/CSS3_logo.svg','/img/php-logo.png']"
                 git="#"
-                img="/img/Aidly.jpg"
+                img="/img/Aidly.avif"
             />
             <ProjetCompo
                 link="/projetNDI"
@@ -23,7 +23,7 @@ import ProjetCompo from '../components/projetCompo.vue';
                 description="Une compétition de dev où le but est de réaliser un site web en groupe, le conceptualiser, réaliser et déployer en 16h maximum."
                 :technos="['/img/vue-logo.png','/img/html.png','/img/CSS3_logo.svg']"
                 git="https://github.com/Hashemking21/Nuit-info-2025"
-                img="/img/ndi.jpg"
+                img="/img/ndi.avif"
             />
             <ProjetCompo
                 link="/projetCodamasy"
@@ -31,7 +31,7 @@ import ProjetCompo from '../components/projetCompo.vue';
                 description="Réalisation d'un petit site de présentation de l'entreprise Codamasy durant un stage d'un mois durant l'été 2025."
                 :technos="['/img/html.png','/img/CSS3_logo.svg']"
                 git="https://github.com/SBuret42/Site_Codamasy"
-                img="/img/codamasy.png"
+                img="/img/codamasy.avif"
             />
             <ProjetCompo
                 link="/projetClassificateur"
@@ -39,7 +39,7 @@ import ProjetCompo from '../components/projetCompo.vue';
                 description="Un classificateur de dépêche journalistique en Java en groupe de 2. Notre but était de partir de fichiers TXT contenant des dépêches pour trouver des moyens de les classer en 5 catégories."
                 :technos="['/img/vue-logo.png']"
                 git="#"
-                img="/img/projetsC.jpg"
+                img="/img/projetsC.avif"
             />
             <ProjetCompo
                 link="/projetAnalyseBD"
@@ -47,7 +47,7 @@ import ProjetCompo from '../components/projetCompo.vue';
                 description="Via une base de données publique sur les relevés de la police sur les accidents s’étant déroulés en France entre 2006 et 2023.  Nous avons, en groupe de 2, analysé l'accidentologie des accidents survenus dans le Grand Est chez les jeunes (18-25 ans) conducteurs ou passagers de voitures."
                 :technos="['/img/Postgresql_elephant.svg.png','/img/R_logo.svg.png']"
                 git="#"
-                img="/img/analyseBD.jpg"
+                img="/img/analyseBD.avif"
             />
             <ProjetCompo
                 link="/projetSiteInstitutionnel"
@@ -55,7 +55,7 @@ import ProjetCompo from '../components/projetCompo.vue';
                 description="Développement d'un site institutionnel avec un wireframe et une maquette graphique pour finir par un vrai site."
                 :technos="['/img/html.png','/img/CSS3_logo.svg']"
                 git="#"
-                img="/img/projetsSCap.png"
+                img="/img/projetsSCap.avif"
             />
             <ProjetCompo
                 link="/projetRobot"
@@ -63,7 +63,7 @@ import ProjetCompo from '../components/projetCompo.vue';
                 description="Un robot en Lego équipé de moteurs contrôlés par un ESP32 connecté à des API météo. Il peut ainsi déplacer ses bras et son bassin, reconnaître l’endroit où il se trouve pour donner précisément la météo, afficher l’heure, la météo et la température ambiante, d’avoir quelques réactions faciales etc..."
                 :technos="['/img/Micropython-logo-wide.png','/img/electronique.svg']"
                 git="https://github.com/SBuret42/RobKey"
-                img="/img/robot.jpg"
+                img="/img/robot.avif"
             />
             <ProjetCompo
                 link="/projetFractales"
@@ -71,7 +71,7 @@ import ProjetCompo from '../components/projetCompo.vue';
                 description="Un script permettant de se déplacer et de zoomer dans une fractale. Il permet d'explorer les fractales de Julia (en modifiant les coordonnées du point c) et celle de Mandelbrot."
                 :technos="['/img/python_logo_icon_168886.png']"
                 git="https://github.com/SBuret42/Explorateur-de-fractales"
-                img="/img/Julia.png"
+                img="/img/Julia.avif"
             />
         </Main>
         <FooterCompo></FooterCompo>
