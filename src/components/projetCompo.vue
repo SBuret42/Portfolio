@@ -35,9 +35,10 @@ const props = defineProps({
             <h2>{{title}}</h2>
             <p id="desc">{{description}}</p>
             <section>
-                <ul>
-                    
-                    <li v-for="l in technos"><img src={{l}} alt=""></li>
+                <ul>                    
+                    <li v-for="techno in technos" :key="techno">
+                        <img :src="techno" alt="">
+                    </li>
                 </ul>
             </section>
             <p id="link"><a target="_blank" @click.stop href={{git}}>dépot Git</a></p>
