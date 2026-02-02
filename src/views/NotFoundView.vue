@@ -22,6 +22,7 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    min-height: 70vh;
 }
 
 p, h1, h2, li {
