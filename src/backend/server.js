@@ -62,14 +62,18 @@ app.use(express.static(distPath));
 
 // Rediriger toutes les requêtes non-API vers index.html
 app.use((req, res, next) => {
-  console.log(`Requête reçue : ${req.method} ${req.path}`);
-  next();
+  if (!req.path.startsWith('/api/')) {
+    res.sendFile(path.join(distPath, 'index.html'));
+  } else {
+    next();
+  }
 });
 
 
+
 // Écouter sur l'IP et le port fournis par Alwaysdata
-const ip = process.env.IP;  // Utilisez l'IP fournie par Alwaysdata
-const port = process.env.PORT;  // Utilisez le port fourni par Alwaysdata
+const ip = 'fd00::6:f9f4';  // Utilisez l'IP fournie par Alwaysdata
+const port = '8100';  // Utilisez le port fourni par Alwaysdata
 
 app.listen(port, ip, () => {
   console.log(`Serveur démarré sur http://[${ip}]:${port}`);
