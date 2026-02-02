@@ -10,6 +10,14 @@ import ProjetCompo from '../components/projetCompo.vue';
         <NavbarHaut></NavbarHaut>
         <Main>
             <ProjetCompo
+                link="/projetAidly"
+                title="Application Web complète"
+                description="Réalisation d'une application web en groupe de 7, un projet vraiment complet et long : conceptualisation, réalisation de maquettes, organisation du groupe, etc... Un projet vraiment complet que j'ai adoré faire avec des amis."
+                :technos="['/img/vue-logo.png','/img/html.png','/img/CSS3_logo.svg','/img/php-logo.png']"
+                git="#"
+                img="/img/Aidly.jpg"
+            />
+            <ProjetCompo
                 link="/projetNDI"
                 title="Nuit de l'info 2025"
                 description="Une compétition de dev où le but est de réaliser un site web en groupe, le conceptualiser, réaliser et déployer en 16h maximum."
