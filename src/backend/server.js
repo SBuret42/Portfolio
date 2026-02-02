@@ -13,7 +13,7 @@ app.use(cors({ origin: ['http://sylvain-buret.alwaysdata.net', 'https://sylvain-
 app.use(bodyParser.json());
 
 console.log('ENV AU DÉMARRAGE:', {
-  MAIL_USER: process.env.MAIL_USER,
+  MAIL_USER: "sylvain.buret.contact@gmail.com",
   MAIL_PASS: process.env.MAIL_PASS ? '***OK***' : undefined,
 });
 
@@ -21,7 +21,7 @@ console.log('ENV AU DÉMARRAGE:', {
 const transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
-    user: process.env.MAIL_USER,
+    user: "sylvain.buret.contact@gmail.com",
     pass: process.env.MAIL_PASS,
   }
 });
@@ -44,7 +44,7 @@ app.post('/send-email', (req, res) => {
   console.log('Body reçu :', { senderName, subject, message });
 
   const mailOptions = {
-    from: process.env.MAIL_USER,
+    from: "sylvain.buret.contact@gmail.com",
     to: process.env.MAIL_USER,
     subject: `Nouveau message de ${senderName} : ${subject}`,
     text: message,
