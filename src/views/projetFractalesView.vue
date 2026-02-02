@@ -8,15 +8,15 @@ import NavbarHaut from '../components/navbarHaut.vue';
 <template>
     <NavbarHaut></NavbarHaut>
     <main>
-        <img src="../assets/img/projetExploJulia.png" alt="">
+        <img src="/img/projetExploJulia.png" alt="">
         <div id="entete">
             <article>
                     <h3>Projet réalisé seul sur mon temps libre</h3>
             </article>
             <section>
                 <ul>
-                    <li><img src="../assets/img/python_logo_icon_168886.png" alt=""></li>
-                    <li><img src="../assets/img/java_logo_icon_169577.png" alt=""></li>
+                    <li><img src="/img/python_logo_icon_168886.png" alt=""></li>
+                    <li><img src="/img/java_logo_icon_169577.png" alt=""></li>
                 </ul>
                 <p>lien vers les projets : <a href="https://github.com/SBuret42/Explorateur-de-fractales">python</a> et <a href="github.com/SBuret42/fractal-explorer-Java">Java</a></p>
             </section>
@@ -31,7 +31,7 @@ import NavbarHaut from '../components/navbarHaut.vue';
                 </section>
             </div>
             <div class="desc">
-                <img src="../assets/img/placeholder.png" alt="" class="desc-img">
+                <img src="/img/placeholder.png" alt="" class="desc-img">
                 <section>
                     <h2>Optimisation</h2>
                     <p>
@@ -46,10 +46,10 @@ import NavbarHaut from '../components/navbarHaut.vue';
                         Ensuite j'ai tenté de rendre le logiciel plus "user friendly". Pour cela j'ai utilisé la bibliothèque Tkinter pour générer la fenêtre de mon logiciel, j'ai ajouté les touches pour le déplacement et le zoom/dézoom, la possibilité de choisir la fractale, c, et les couleurs. J'ai également ajouté une manière de prévisualiser la fractale dans le menu et une touche pour prendre des "captures d'écran" qui en réalité génèrent une nouvelle image avec les mêmes valeurs mais de meilleure qualité. Et finalement j'ai ajouté une page de tutoriel des touches.
                   </p>
                 </section>
-                <img src="../assets/img/placeholder.png" alt="" class="desc-img">
+                <img src="/img/placeholder.png" alt="" class="desc-img">
             </div>
             <div class="desc">
-                <img src="../assets/img/placeholder.png" alt="" class="desc-img">
+                <img src="/img/placeholder.png" alt="" class="desc-img">
                 <section>
                     <h2>Conclusion</h2>
                     <p>

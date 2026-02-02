@@ -8,7 +8,7 @@ import NavbarHaut from '../components/navbarHaut.vue';
 <template>
     <NavbarHaut></NavbarHaut>
     <main>
-    <img src="../assets/img/projAutoMeteoBan.jpg" alt="">
+    <img src="/img/projAutoMeteoBan.jpg" alt="">
         <div id="entete">
             <article>
                     <h3>Projet réalisé avec :</h3>
@@ -18,8 +18,8 @@ import NavbarHaut from '../components/navbarHaut.vue';
             </article>
             <section>
                 <ul>
-                    <li><img src="../assets/img/Micropython-logo-wide.png" alt=""></li>
-                    <li><img src="../assets/img/electronique.svg" alt=""></li>
+                    <li><img src="/img/Micropython-logo-wide.png" alt=""></li>
+                    <li><img src="/img/electronique.svg" alt=""></li>
                 </ul>
                 <a href="https://github.com/SBuret42/RobKey">Lien vers le dépot Git du projet</a>
             </section>
@@ -32,10 +32,10 @@ import NavbarHaut from '../components/navbarHaut.vue';
                         Ce projet est un robot piloté par un ESP32. Il indique sur son écran l'heure, la météo actuelle, la température de la pièce, où il est et la température moyenne de la journée d'aujourd'hui et de demain. Il peut également danser en bougeant ses bras et son bassin.
                     </p>
                 </section>
-                <img id="imgRK" src="../assets/img/robkey.jpg" alt="" class="desc-img">
+                <img id="imgRK" src="/img/robkey.jpg" alt="" class="desc-img">
             </div>
             <div class="desc">
-                <img src="../assets/img/placeholder.png" alt="" class="desc-img">
+                <img src="/img/placeholder.png" alt="" class="desc-img">
                 <section >
                     <h2>Construction</h2>
                     <p>
@@ -50,10 +50,10 @@ import NavbarHaut from '../components/navbarHaut.vue';
                         D'abord, nous avons codé les briques élémentaires de notre micrologiciel : une classe pour les 4 boutons qui fait une liste des boutons et des PIN rattachés, une classe qui récupère les informations du capteur de température, et les classes gérant les servomoteurs (elles trouvées sur internet).
                     </p>
                 </section>
-                <img src="../assets/img/placeholder.png" alt="" class="desc-img">
+                <img src="/img/placeholder.png" alt="" class="desc-img">
             </div>
             <div class="desc">
-                <img src="../assets/img/placeholder.png" alt="" class="desc-img">
+                <img src="/img/placeholder.png" alt="" class="desc-img">
                 <section>
                     <h2>La partie sans-fils</h2>
                     <p>
@@ -67,7 +67,7 @@ import NavbarHaut from '../components/navbarHaut.vue';
                         Ainsi, durant ce projet j'ai pu designer et construire entièrement le robot, j'ai également pu programmer toute la partie logicielle liée aux mouvements du robot.
                     </p>
                 </section>
-                <img src="../assets/img/placeholder.png" alt="" class="desc-img">
+                <img src="/img/placeholder.png" alt="" class="desc-img">
             </div>
         </div>
     </main>

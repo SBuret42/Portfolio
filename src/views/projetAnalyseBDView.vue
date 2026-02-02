@@ -8,7 +8,7 @@ import NavbarHaut from '../components/navbarHaut.vue';
 <template>
     <NavbarHaut></NavbarHaut>
     <main>
-        <img src="../assets/img/projBDban.jpg" alt="">
+        <img src="/img/projBDban.jpg" alt="">
             <div id="entete">
                 <article>
                     <h3>Projet réalisé avec :</h3>
@@ -18,8 +18,8 @@ import NavbarHaut from '../components/navbarHaut.vue';
                 </article>
                 <section>
                     <ul>
-                        <li><img src="../assets/img/Postgresql_elephant.svg.png" alt=""></li>
-                        <li><img src="../assets/img/R_logo.svg.png" alt=""></li>
+                        <li><img src="/img/Postgresql_elephant.svg.png" alt=""></li>
+                        <li><img src="/img/R_logo.svg.png" alt=""></li>
                     </ul>
                     <a href="#">Lien vers le dépot du projet</a>
                 </section>
@@ -32,10 +32,10 @@ import NavbarHaut from '../components/navbarHaut.vue';
                        Durant ce projet, nous avons dû, en groupes de 2, utiliser une base de données publique sur les relevés de la police concernant les accidents s’étant déroulés en France entre 2006 et 2023.  Nous avions comme sujet l’analyse accidentologique des accidents survenus dans le Grand Est chez les jeunes (18-25 ans) conducteurs ou passagers de voitures.
                     </p>
                 </section>
-                <img src="../assets/img/placeholder.png" alt="" class="desc-img">
+                <img src="/img/placeholder.png" alt="" class="desc-img">
             </div>
             <div class="desc">
-                <img src="../assets/img/placeholder.png" alt="" class="desc-img">
+                <img src="/img/placeholder.png" alt="" class="desc-img">
                 <section>
                     <h2>Nettoyer la base de données</h2>
                     <p>
@@ -48,10 +48,10 @@ import NavbarHaut from '../components/navbarHaut.vue';
                     <h2>Rédiger un document d’analyse de nos résultats</h2>
                     <p>Nous avons pu ensuite créer un PDF via le langage R qui réalise l’étude en elle-même. Le document regroupe 6 graphiques et tableaux montrant l’implication des jeunes dans les accidents routiers, sont-ils plus souvent passagers ou combien d’accidents impliquent des jeunes au fil des ans, etc.</p>
                 </section>
-                <img src="../assets/img/placeholder.png" alt="" class="desc-img">
+                <img src="/img/placeholder.png" alt="" class="desc-img">
             </div>
             <div class="desc">
-                <img src="../assets/img/placeholder.png" alt="" class="desc-img">
+                <img src="/img/placeholder.png" alt="" class="desc-img">
                 <section>
                     <h2>Conclusion</h2>
                     <p>

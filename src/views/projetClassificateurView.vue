@@ -8,7 +8,7 @@ import NavbarHaut from '../components/navbarHaut.vue';
 <template>
     <NavbarHaut></NavbarHaut>
     <main>
-        <img src="../assets/img/projetsC.jpg" alt="">
+        <img src="/img/projetsC.jpg" alt="">
             <div id="entete">
                 <article>
                     <h3>Projet réalisé avec :</h3>
@@ -18,7 +18,7 @@ import NavbarHaut from '../components/navbarHaut.vue';
                 </article>
                 <section>
                     <ul>
-                        <li><img src="../assets/img/java_logo_icon_169577.png" alt=""></li>
+                        <li><img src="/img/java_logo_icon_169577.png" alt=""></li>
                     </ul>
                     <a href="#">Lien vers le dépot Git du projet</a>
                 </section>
@@ -31,10 +31,10 @@ import NavbarHaut from '../components/navbarHaut.vue';
                         Durant le premier semestre de ma première année j’ai pu réaliser un classificateur de dépêche journalistique en Java en groupe de 2. Notre but était de partir de fichiers TXT contenant des dépêches pour trouver des moyens de les classer en 5 catégories : sciences, politique, sport, économie et culture. Nous avons ainsi réalisé 3 algorithmes.
                     </p>
                 </section>
-                <img src="../assets/img/placeholder.png" alt="" class="desc-img">
+                <img src="/img/placeholder.png" alt="" class="desc-img">
             </div>
             <div class="desc">
-                <img src="../assets/img/placeholder.png" alt="" class="desc-img">
+                <img src="/img/placeholder.png" alt="" class="desc-img">
                 <section>
                     <h2>Algorithme par lexique manuel</h2>
                     <p>
@@ -52,10 +52,10 @@ import NavbarHaut from '../components/navbarHaut.vue';
                         Cette méthode est très fiable (95,6% des dépêches sont correctement classées), mais lente à cause de la taille des lexiques. Nous avons donc amélioré ce processus en triant les lexiques via un tri à fusion (le plus rapide que nous sachions programmer) afin d’utiliser des recherches plus rapides que les séquentielles, comme la dichotomie.
                     </p>
                 </section>
-                <img src="../assets/img/placeholder.png" alt="" class="desc-img">
+                <img src="/img/placeholder.png" alt="" class="desc-img">
             </div>
             <div class="desc">
-                <img src="../assets/img/shémaKNN.png" alt="" class="desc-img">
+                <img src="/img/shémaKNN.png" alt="" class="desc-img">
                 <section>
                     <h2>Algorithme par KNN (K plus proches voisins)</h2>
                     <p>
@@ -79,7 +79,7 @@ import NavbarHaut from '../components/navbarHaut.vue';
                         Durant ce projet j’ai programmé l’algorithme KNN, une bonne partie de l’algorithme par lexique trié et son amélioration par le tri.
                     </p>
                 </section>
-                <img src="../assets/img/placeholder.png" alt="" class="desc-img">
+                <img src="/img/placeholder.png" alt="" class="desc-img">
             </div>
         </div>
     </main>
