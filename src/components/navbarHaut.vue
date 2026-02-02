@@ -5,8 +5,8 @@ import { computed } from 'vue'
 import router from '../router';
 
 // Imports d'images
-import projetImg from '../assets/img/iconProjet.png';
-import projetColor from '../assets/img/iconProjetB.png';
+import projetImg from '/img/iconProjet.png';
+import projetColor from '/img/iconProjetB.png';
 
 const route = useRoute()
 

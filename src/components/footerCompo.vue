@@ -1,8 +1,8 @@
 <template>
     <footer>
-        <a href="https://github.com/SBuret42/"><img src="../assets/img/githhub.png" alt=""></a>
-        <a href="https://fr.linkedin.com/in/sylvain-buret-42918430b"><img src="../assets/img/linked in.png" alt=""></a>
-        <a href="mailto:sylvain.buret@etu.univ-grenoble-alpes.fr"><img src="../assets/img/mail.png" alt=""></a>
+        <a href="https://github.com/SBuret42/"><img src="/img/githhub.png" alt=""></a>
+        <a href="https://fr.linkedin.com/in/sylvain-buret-42918430b"><img src="/img/linked in.png" alt=""></a>
+        <a href="mailto:sylvain.buret@etu.univ-grenoble-alpes.fr"><img src="/img/mail.png" alt=""></a>
     </footer>
 </template>
 
