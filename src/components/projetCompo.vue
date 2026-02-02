@@ -30,10 +30,10 @@ const props = defineProps({
 </script>
 
 <template>
-    <RouterLink to={{link}}>
+    <RouterLink :to="link">
         <div class="projet">
-            <h2>{{title}}</h2>
-            <p id="desc">{{description}}</p>
+            <h2>{{ title }}</h2>
+            <p id="desc">{{ description }}</p>
             <section>
                 <ul>                    
                     <li v-for="techno in technos" :key="techno">
@@ -41,7 +41,7 @@ const props = defineProps({
                     </li>
                 </ul>
             </section>
-            <p id="link"><a target="_blank" @click.stop href={{git}}>dépot Git</a></p>
+            <p id="link"><a target="_blank" @click.stop :href="git">dépot Git</a></p>
             <img :src=img alt="">
         </div>
     </RouterLink>
