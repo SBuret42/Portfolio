@@ -89,10 +89,8 @@ const submitForm = async () => {
                     <input type="text" id="contact" v-model="form.contact" required>
                     <label for="subject">Objet du message :</label>
                     <input type="text" id="subject" v-model="form.subject" required>
-                    <div>
-                        <label for="message">Message :</label>
-                        <textarea id="message" v-model="form.message" required></textarea>
-                    </div>
+                    <label for="message">Message :</label>
+                    <textarea id="message" v-model="form.message" required></textarea>
                     <button type="submit">Envoyer</button>
                 </form>
             </div>
