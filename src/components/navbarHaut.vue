@@ -37,7 +37,7 @@ const isActive = (link: string) => {
   <div class="app-container">
     <header class="header">
       <div class="header-content">
-        <RouterLink to="/">
+        <RouterLink to="/" class="router">
           <div class="logo-container">
             <h1 class="logo-text">Portfolio - Sylvain Buret</h1>
           </div>
@@ -48,7 +48,7 @@ const isActive = (link: string) => {
             v-for="(item, index) in menuItems"
             :key="index"
             :to="item.link"
-            class="menu-item desktop-item"
+            class="menu-item desktop-item router"
             :class="{ 'current-page': isActive(item.link) }"
           >
             <div class="icon-circle">
@@ -81,6 +81,10 @@ const isActive = (link: string) => {
   width: 100%;
   z-index: 1000;
   height: 80px;
+}
+
+.router {
+  text-decoration: none;
 }
 
 .header-content {

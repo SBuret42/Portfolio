@@ -208,6 +208,10 @@ input, textarea {
     margin-bottom: 10px;
 }
 
+input {
+    width: 100%;
+}
+
 textarea {
     display: block;
     width: 98%;
