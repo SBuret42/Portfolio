@@ -114,7 +114,7 @@ main {
   padding-top: 25vh;
   width: 100vw;
   object-fit: contain;
-  background-image: url("/img/IndBanner.jpg");
+  background-image: url("/img/IndBanner.avif");
   height: 70vh;
   position: relative;
   margin-left: -8px;
