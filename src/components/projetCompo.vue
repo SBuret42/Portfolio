@@ -41,7 +41,7 @@ const props = defineProps({
                     </li>
                 </ul>
             </section>
-            <p id="link"><a target="_blank" @click.stop :href="git">dépot Git</a></p>
+            <p id="link" v-if="git!='#'"><a target="_blank" @click.stop :href="git">dépot Git</a></p>
             <img :src=img alt="">
         </div>
     </RouterLink>
