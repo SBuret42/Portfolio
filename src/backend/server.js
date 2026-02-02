@@ -1,3 +1,12 @@
+process.on('uncaughtException', err => {
+  console.error('Uncaught Exception:', err);
+});
+
+process.on('unhandledRejection', err => {
+  console.error('Unhandled Rejection:', err);
+});
+
+
 const express = require('express');
 const bodyParser = require('body-parser');
 const nodemailer = require('nodemailer');
@@ -57,7 +66,7 @@ app.post('/send-email', (req, res) => {
 });
 
 // Servir les fichiers statiques du dossier 'dist'
-const distPath = path.join(__dirname, '../../dist'); // ou './dist' selon votre structure
+const distPath = path.resolve(__dirname, '../../dist');
 app.use(express.static(distPath));
 
 // Rediriger toutes les requêtes non-API vers index.html
@@ -72,12 +81,14 @@ app.use((req, res, next) => {
 
 
 // Écouter sur l'IP et le port fournis par Alwaysdata
-const ip = 'fd00::6:f9f4';  // Utilisez l'IP fournie par Alwaysdata
-const port = '8100';  // Utilisez le port fourni par Alwaysdata
+const port = process.env.PORT;
+const host = process.env.HOST;
 
-app.listen(port, ip, () => {
-  console.log(`Serveur démarré sur http://[${ip}]:${port}`);
+app.listen(port, host, () => {
+  console.log(`Serveur démarré sur ${host}:${port}`);
 });
+
+
 
 
 
