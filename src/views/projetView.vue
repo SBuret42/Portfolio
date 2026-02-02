@@ -13,9 +13,17 @@ import ProjetCompo from '../components/projetCompo.vue';
                 link="/projetNDI"
                 title="Nuit de l'info 2025"
                 description="Une compétition de dev où le but est de réaliser un site web en groupe, le conceptualiser, réaliser et déployer en 16h maximum."
-                :technos="['/img/Micropython-logo-wide.png','/img/electronique.svg','/img/html.png','/img/CSS3_logo.svg']"
+                :technos="['/img/vue-logo.png','/img/html.png','/img/CSS3_logo.svg']"
                 git="https://github.com/Hashemking21/Nuit-info-2025"
                 img="/img/ndi.jpg"
+            />
+            <ProjetCompo
+                link="/projetCodamasy"
+                title="Site Codamasy"
+                description="Réalisation d'un petit site de présentation de l'entreprise Codamasy durant un stage d'un mois durant l'été 2025."
+                :technos="['/img/html.png','/img/CSS3_logo.svg']"
+                git="https://github.com/SBuret42/Site_Codamasy"
+                img="/img/codamasy.png"
             />
             <ProjetCompo
                 link="/projetClassificateur"
