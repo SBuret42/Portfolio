@@ -38,8 +38,9 @@ const routes = [
     name: 'projetAnalyseBD',
     component: projetAnalyseBDView,
   },
+
   {
-      path: '/NotFound',
+      path: '/:pathMatch(.*)*',
       name: 'NotFound',
       component: NotFoundView
   }
