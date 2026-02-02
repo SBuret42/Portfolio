@@ -42,7 +42,7 @@ const props = defineProps({
                 </ul>
             </section>
             <p id="link"><a target="_blank" @click.stop href={{git}}>dépot Git</a></p>
-            <img src={{img}} alt="">
+            <img :src=img alt="">
         </div>
     </RouterLink>
 </template>
