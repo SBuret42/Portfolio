@@ -34,14 +34,14 @@ p, .link {
 }
 
 .link {
-    background: linear-gradient(43deg, rgba(0, 7, 43, 1) 0%, rgb(39, 0, 53) 100%);
+    background-color:#2b0b75;
     border: solid 3px #350d91;
     border-radius: 5px;
     padding: 10px;
 }
 
 .link:hover {
-    background: linear-gradient(43deg, rgb(0, 5, 31) 0%, rgb(30, 0, 41) 100%);
+    background-color: #2b0b75;
     border: solid 3px #2b0b75;
 }
 
