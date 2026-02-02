@@ -1,12 +1,3 @@
-process.on('uncaughtException', err => {
-  console.error('Uncaught Exception:', err);
-});
-
-process.on('unhandledRejection', err => {
-  console.error('Unhandled Rejection:', err);
-});
-
-
 const express = require('express');
 const bodyParser = require('body-parser');
 const nodemailer = require('nodemailer');
@@ -20,6 +11,11 @@ app.use(cors({ origin: ['http://sylvain-buret.alwaysdata.net', 'https://sylvain-
 
 
 app.use(bodyParser.json());
+
+console.log('ENV AU DÉMARRAGE:', {
+  MAIL_USER: process.env.MAIL_USER,
+  MAIL_PASS: process.env.MAIL_PASS ? '***OK***' : undefined,
+});
 
 // Configuration de Nodemailer
 const transporter = nodemailer.createTransport({
