@@ -43,6 +43,7 @@ p, .link {
 .link:hover {
     background-color: #1a0647;
     border: solid 3px #2b0b75;
+    cursor: pointer;
 }
 
 h1 {
