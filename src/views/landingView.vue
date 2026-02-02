@@ -13,13 +13,14 @@ const form = ref({
 // gestion du formulaire
 const submitForm = async () => {
   try {
-    const response = await fetch('http://localhost:3000/send-email', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(form.value),
+    const response = await fetch('https://sylvain-buret.alwaysdata.net/send-email', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(form.value),
     });
+
 
     if (!response.ok) {
       throw new Error(`Erreur HTTP : ${response.status}`);

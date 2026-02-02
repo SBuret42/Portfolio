@@ -27,8 +27,8 @@ const transporter = nodemailer.createTransport({
   port: 587,
   secure: false,
   auth: {
-    user: "sylvain.buret.contact@gmail.com",
-    pass: 'qxpy xrtu sern hyec',
+    user: process.env.MAIL_USER,
+    pass: process.env.MAIL_PASS,
   },
   tls: { rejectUnauthorized: false },
 });
@@ -44,8 +44,9 @@ transporter.verify((error, success) => {
 
 // Route pour envoyer un email
 app.post('/send-email', (req, res) => {
-  const { name, subject, message } = req.body;
-  console.log('Données reçues :', { name, subject, message });
+  console.log('📩 Route /send-email appelée');
+  console.log('Body reçu :', req.body);
+
 
   const mailOptions = {
     from: "sylvain.buret.contact@gmail.com",
