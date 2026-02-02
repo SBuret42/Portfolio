@@ -38,16 +38,16 @@ transporter.verify((error, success) => {
 
 // Route pour envoyer un email
 app.post('/send-email', (req, res) => {
-  const { name: senderName, subject, message } = req.body;
+  const { name: senderName, contact, subject, message } = req.body;
 
   console.log('📩 Route /send-email appelée');
-  console.log('Body reçu :', { senderName, subject, message });
+  console.log('Body reçu :', { senderName, contact, subject, message });
 
   const mailOptions = {
     from: "sylvain.buret.contact@gmail.com",
     to: "sylvain.buret.contact@gmail.com",
     subject: `Nouveau message de ${senderName} : ${subject}`,
-    text: message,
+    text: `À contacter via ${contact}\n ${message}`,
   };
 
   transporter.sendMail(mailOptions, (error, info) => {
