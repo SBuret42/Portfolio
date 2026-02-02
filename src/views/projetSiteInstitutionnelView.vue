@@ -8,7 +8,7 @@ import NavbarHaut from '../components/navbarHaut.vue';
 <template>
     <NavbarHaut></NavbarHaut>
     <main>
-        <img src="/img/siteCapBan.png" alt="">
+        <img src="/img/siteCapBan.avif" alt="">
         <div id="entete">
             <article>
                 <h3>Projet réalisé avec :</h3>
@@ -35,7 +35,7 @@ import NavbarHaut from '../components/navbarHaut.vue';
                 </section>  
             </div>
             <div class="desc">
-                <img src="/img/siteCapHP.png" alt="" class="desc-img">
+                <img src="/img/siteCapHP.avif" alt="" class="desc-img">
                 <section>
                     <h2>La page d'accueil</h2>
                     <p>
@@ -54,10 +54,10 @@ import NavbarHaut from '../components/navbarHaut.vue';
                         Cette page est composée d'articles parlant des différents secteurs avec une description du secteur d'activité, et ce que fait l'entreprise dans ce secteur. L'article présente aussi les partenaires en lien avec ce secteur et un article directement écrit par l'entreprise sur l'un de leurs projets. L'article présente également la ou les filiales de l'entreprise travaillant dans ce secteur.
                     </p>
                 </section>
-                <img src="/img/siteCapSA.png" alt="" class="desc-img">
+                <img src="/img/siteCapSA.avif" alt="" class="desc-img">
             </div>
             <div class="desc">
-                <img  src="/img/siteCapS.png" alt="" class="desc-img">
+                <img  src="/img/siteCapS.avif" alt="" class="desc-img">
                 <section>
                     <h2>Les services</h2>
                     <p>
@@ -79,10 +79,10 @@ import NavbarHaut from '../components/navbarHaut.vue';
                         Cette page est composée d'articles parlant des différents "gros" clients avec une description de ce que fait l'entreprise pour ces clients, les solutions, les services proposés. On y trouve aussi des liens vers d'autres articles parlant de ces projets et un lien menant vers la filiale s'occupant de ce client.
                     </p>
                 </section>
-                <img src="/img/siteCapC.png" alt="" class="desc-img">
+                <img src="/img/siteCapC.avif" alt="" class="desc-img">
             </div>
             <div class="desc">
-                <img  src="/img/siteCapFC.png" alt="" class="desc-img">
+                <img  src="/img/siteCapFC.avif" alt="" class="desc-img">
                 <section>
                     <h2>Le formulaire de contact</h2>
                     <p>

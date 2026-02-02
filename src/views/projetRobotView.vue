@@ -8,7 +8,7 @@ import NavbarHaut from '../components/navbarHaut.vue';
 <template>
     <NavbarHaut></NavbarHaut>
     <main>
-    <img src="/img/projAutoMeteoBan.jpg" alt="">
+    <img src="/img/projAutoMeteoBan.avif" alt="">
         <div id="entete">
             <article>
                     <h3>Projet réalisé avec :</h3>
@@ -32,7 +32,7 @@ import NavbarHaut from '../components/navbarHaut.vue';
                         Ce projet est un robot piloté par un ESP32. Il indique sur son écran l'heure, la météo actuelle, la température de la pièce, où il est et la température moyenne de la journée d'aujourd'hui et de demain. Il peut également danser en bougeant ses bras et son bassin.
                     </p>
                 </section>
-                <img id="imgRK" src="/img/robkey.jpg" alt="" class="desc-img">
+                <img id="imgRK" src="/img/robkey.avif" alt="" class="desc-img">
             </div>
             <div class="desc">
                 <img src="/img/placeholder.png" alt="" class="desc-img">

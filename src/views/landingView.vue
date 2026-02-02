@@ -49,7 +49,7 @@ const submitForm = async () => {
                 </article>
             </div>
             <div class="desc">
-                <img src="/img/IndGalaxie.jpg" alt="galaxie" class="desc-img">
+                <img src="/img/IndGalaxie.avif" alt="galaxie" class="desc-img">
                 <section>
                     <h2>Qui suis-je ?</h2>
                     <p>Né en 2006, dans le sud de la France, je suis étudiant en développement informatique. Dans mon temps libre, je réalise des projets plus ou moins gros en fonction de mes envies. 
@@ -64,10 +64,10 @@ const submitForm = async () => {
                     <h2>Métier prédestiné</h2>
                     <p>Dans le futur, je souhaiterais devenir développeur, fullstack ou bien frontend. J'aime beaucoup discuter avec les utilisateurs, comprendre leurs besoins et développer un outil qui y répond au mieux. C'est pour cela que je préfère développer la partie front-end d'une application, mais j'apprécie aussi le développement d'algorithmes.</p>
                 </section>
-                <img src="/img/IndMontagne.jpg" alt="montagne" class="desc-img">
+                <img src="/img/IndMontagne.avif" alt="montagne" class="desc-img">
             </div>
             <div class="desc">
-                <img src="/img/IndEccureuil.jpg" alt="Calendrier partagé" class="desc-img">
+                <img src="/img/IndEccureuil.avif" alt="Calendrier partagé" class="desc-img">
                 <section>
                     <h2>2024 - Aujourd’hui : IUT</h2>
                     <p>Étudiant à l'IUT 2 de Grenoble en informatique, j'y apprends notamment le Java, C et C++, le développement web (HTML, CSS, JavaScript et PHP), la modélisation UML, la réalisation d'interfaces accessibles répondant à de vrais besoins, le SQL et plus particulièrement le PostgreSQL et d'autres technologies.</p>
@@ -78,7 +78,7 @@ const submitForm = async () => {
                     <h2>2021 - 2024 : Lycée</h2>
                     <p>Lycéen au lycée Louis Pasteur d'Avignon en spécialité NSI, maths (maths expertes) et physique en première. J'ai pu, en NSI, participer à des concours divers, pour l'entreprise <a href="https://www.numworks.com/fr/">Numworks</a>, la nuit du code et 2 concours du forum <a href="https://tiplanet.org/forum/portal.php">Ti-planet</a>. J'ai ainsi obtenu mon bac mention assez bien.</p>
                 </section>
-                <img src="/img/IndLac.jpg" alt="Calendrier partagé" class="desc-img">
+                <img src="/img/IndLac.avif" alt="Calendrier partagé" class="desc-img">
             </div>
             <div class="contact">
                 <form @submit.prevent="submitForm">

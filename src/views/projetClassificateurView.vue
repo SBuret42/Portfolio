@@ -8,7 +8,7 @@ import NavbarHaut from '../components/navbarHaut.vue';
 <template>
     <NavbarHaut></NavbarHaut>
     <main>
-        <img src="/img/projetsC.jpg" alt="">
+        <img src="/img/projetsC.avif" alt="">
             <div id="entete">
                 <article>
                     <h3>Projet réalisé avec :</h3>
@@ -55,7 +55,7 @@ import NavbarHaut from '../components/navbarHaut.vue';
                 <img src="/img/placeholder.png" alt="" class="desc-img">
             </div>
             <div class="desc">
-                <img src="/img/shémaKNN.png" alt="" class="desc-img">
+                <img src="/img/shémaKNN.avif" alt="" class="desc-img">
                 <section>
                     <h2>Algorithme par KNN (K plus proches voisins)</h2>
                     <p>

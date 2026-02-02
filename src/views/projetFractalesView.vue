@@ -8,7 +8,7 @@ import NavbarHaut from '../components/navbarHaut.vue';
 <template>
     <NavbarHaut></NavbarHaut>
     <main>
-        <img src="/img/projetExploJulia.png" alt="">
+        <img src="/img/projetExploJulia.avif" alt="">
         <div id="entete">
             <article>
                     <h3>Projet réalisé seul sur mon temps libre</h3>
