@@ -22,7 +22,7 @@ const transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
     user: "sylvain.buret.contact@gmail.com",
-    pass: process.env.MAIL_PASS,
+    pass: 'qxpy xrtu sern hyec',
   }
 });
 
@@ -45,7 +45,7 @@ app.post('/send-email', (req, res) => {
 
   const mailOptions = {
     from: "sylvain.buret.contact@gmail.com",
-    to: process.env.MAIL_USER,
+    to: "sylvain.buret.contact@gmail.com",
     subject: `Nouveau message de ${senderName} : ${subject}`,
     text: message,
   };
