@@ -44,25 +44,26 @@ transporter.verify((error, success) => {
 
 // Route pour envoyer un email
 app.post('/send-email', (req, res) => {
-  console.log('📩 Route /send-email appelée');
-  console.log('Body reçu :', req.body);
+  const { name: senderName, subject, message } = req.body;
 
+  console.log('📩 Route /send-email appelée');
+  console.log('Body reçu :', { senderName, subject, message });
 
   const mailOptions = {
-    from: "sylvain.buret.contact@gmail.com",
-    to: "sylvain.buret.contact@gmail.com",
-    subject: `Nouveau message de ${name}: ${subject}`,
+    from: process.env.MAIL_USER,
+    to: process.env.MAIL_USER,
+    subject: `Nouveau message de ${senderName} : ${subject}`,
     text: message,
   };
 
   transporter.sendMail(mailOptions, (error, info) => {
     if (error) {
-      console.error('Erreur détaillée :', error);
-      res.status(500).send("Erreur lors de l'envoi de l'email.");
-    } else {
-      console.log('Email envoyé :', info.response);
-      res.status(200).send('Email envoyé avec succès !');
+      console.error('❌ Erreur envoi mail :', error);
+      return res.status(500).send("Erreur lors de l'envoi de l'email.");
     }
+
+    console.log('✅ Email envoyé :', info.response);
+    res.status(200).send('Email envoyé avec succès !');
   });
 });
 
