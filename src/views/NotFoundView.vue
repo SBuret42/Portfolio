@@ -11,7 +11,7 @@ import ProjetCompo from '../components/projetCompo.vue';
         <Main>
             <h1>Erreur 404</h1>
             <p>La ressource que vous chercher soit n'existe pas soit est entrain d'être rédigé.</p>
-            <RouterLink to="/">Revenir à l'accueil</RouterLink>
+            <RouterLink to="/" class="link">Revenir à l'accueil</RouterLink>
         </Main>
         <FooterCompo></FooterCompo>
 </template>
@@ -25,11 +25,11 @@ main {
     min-height: 70vh;
 }
 
-p, h1, h2, li {
+p, h1, .link {
     color: white;
 }
 
-p {
+p, .link {
     font-size: x-large;
 }
 
