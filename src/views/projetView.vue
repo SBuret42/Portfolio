@@ -37,7 +37,7 @@ import ProjetCompo from '../components/projetCompo.vue';
                 link="/projetClassificateur"
                 title="Classificateur automatique"
                 description="Un classificateur de dépêche journalistique en Java en groupe de 2. Notre but était de partir de fichiers TXT contenant des dépêches pour trouver des moyens de les classer en 5 catégories."
-                :technos="['/img/vue-logo.png']"
+                :technos="['/img/java_logo_icon_169577.png']"
                 git="#"
                 img="/img/projetsC.avif"
             />
