@@ -9,6 +9,7 @@ import projetAnalyseBDView from '../views/projetAnalyseBDView.vue';
 import NotFoundView from '../views/NotFoundView.vue'
 import projetNDIView from '../views/projetNDIView.vue';
 import projetAidlyView from '../views/projetAidlyView.vue';
+import projetCodamasyView from '../views/projetCodamasyView.vue';
 
 const routes = [
   {
@@ -47,6 +48,10 @@ const routes = [
     path: '/projetAidly',
     name: 'projetAidly',
     component: projetAidlyView,
+  },{
+    path: '/projetCodamasy',
+    name: 'projetCodamasy',
+    component: projetCodamasyView,
   },
 
   {
