@@ -64,7 +64,7 @@ import NavbarHaut from '../components/navbarHaut.vue';
                 <section>
                     <h2>Conclusion</h2>
                     <p>
-                        Ainsi, durant ce projet j'ai pu vraiment tester de nouvelles choses au niveau des interfaces, et même si je ne suis pas satisfait de l'intégralité du site, il reste des problèmes. J'ai énormément aimé ce projet, je me suis beaucoup amusé pendant ces 3 semaines de programmation intensive avec mes amis.
+                        Ainsi, durant ce projet j'ai pu vraiment tester de nouvelles choses au niveau des interfaces. Des amélioration sont encore possible. J'ai énormément aimé ce projet, je me suis beaucoup amusé pendant ces 3 semaines de programmation intensive avec mes amis.
                     </p>
                     <p>
                         Aidly est toujours en ligne vous pouvez l'essayer en suivant ce <a href="https://aidly.nfteam.ovh/">lien</a> !

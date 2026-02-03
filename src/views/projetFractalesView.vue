@@ -43,7 +43,7 @@ import NavbarHaut from '../components/navbarHaut.vue';
                 <section>
                   <h2>Polir le logiciel</h2>
                   <p>
-                        Ensuite j'ai tenté de rendre le logiciel plus "user friendly". Pour cela j'ai utilisé la bibliothèque Tkinter pour générer la fenêtre de mon logiciel, j'ai ajouté les touches pour le déplacement et le zoom/dézoom, la possibilité de choisir la fractale, c, et les couleurs. J'ai également ajouté une manière de prévisualiser la fractale dans le menu et une touche pour prendre des "captures d'écran" qui en réalité génèrent une nouvelle image avec les mêmes valeurs mais de meilleure qualité. Et finalement j'ai ajouté une page de tutoriel des touches.
+                        Ensuite j'ai tenté de rendre le logiciel plus "user friendly". Pour cela j'ai utilisé la bibliothèque Tkinter pour générer la fenêtre de mon logiciel, j'ai ajouté les touches pour le déplacement et le zoom/dézoom, la possibilité de choisir la fractale, c, et les couleurs. J'ai également ajouté une manière de prévisualiser la fractale dans le menu et une touche pour prendre des "captures d'écran" qui en réalité génère une nouvelle image avec les mêmes valeurs mais de meilleure qualité. Et finalement j'ai ajouté une page de tutoriel des touches.
                   </p>
                 </section>
                 <img src="/img/placeholder.png" alt="" class="desc-img">

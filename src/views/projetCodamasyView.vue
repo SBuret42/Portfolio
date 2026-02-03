@@ -44,7 +44,7 @@ import NavbarHaut from '../components/navbarHaut.vue';
                 <section>
                     <h2>Défendre mes idées</h2>
                     <p>
-                        Quand mon cahier des charges a été validé, j'ai pu commencer à maquetter le site d'abord sous forme de wireframe puis de maquette graphique. J'en ai fait un site mono-page pour fluidifier la lecture jusqu'à arriver à une proposition de contact. J'ai longuement pu débattre avec ma tutrice sur la maquette pour vraiment cerner ce qu'elle attendait et le représenter au mieux.
+                        Quand mon cahier des charges a été validé, j'ai pu commencer à maquetter le site d'abord sous forme de wireframe puis de maquette graphique. J'en ai fait un site mono-page pour fluidifier la lecture jusqu'à arriver à une proposition de contact. J'ai pu débattre avec ma tutrice sur la maquette pour vraiment cerner ce qu'elle attendait et le représenter au mieux.
                     </p>
                 </section>
                 <img src="/img/placeholder.png" alt="" class="desc-img">
@@ -72,7 +72,7 @@ import NavbarHaut from '../components/navbarHaut.vue';
                 <section>
                     <h2>Conclusion</h2>
                     <p>
-                        Ce projet a été ma première expérience professionnelle, j'ai beaucoup apprécié travailler chez Codamasy, c'est même la première fois que je réalisais un projet du tout début à la toute fin en touchant à absolument tout. Le site est disponible, vous le retrouverez en suivant ce <a href="codamasy.fr">lien</a>.
+                        Ce projet a été ma première expérience professionnelle, j'ai beaucoup apprécié de travailler chez Codamasy, c'est même la première fois que je réalisais un projet du tout début à la toute fin en touchant à absolument tout. Le site est disponible, vous le retrouverez en suivant ce <a href="https://codamasy.fr/">lien</a>.
                     </p>
                 </section>
             </div>

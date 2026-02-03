@@ -75,7 +75,7 @@ import NavbarHaut from '../components/navbarHaut.vue';
                 <section>
                     <h2>Conclusion</h2>
                     <p>
-                        Ainsi, durant ce projet j'ai pu écrire l'histoire du jeu, m'introduire à Vue Js et comprendre comment gérer et participer à un projet quand on ne connaît pas tout le monde tout en étant sous le stress de la compétition. Malgré que nous n'ayons pas pu déployer le projet, j'ai adoré l'expérience et je pense que je retenterai en 2026.
+                        Ainsi, durant ce projet j'ai pu écrire l'histoire du jeu, m'introduire à Vue Js et comprendre comment gérer et participer à un projet quand on ne connaît pas tout le monde tout en étant sous le stress de la compétition. Bien que nous n'ayons pas pu déployer le projet, j'ai adoré l'expérience et je pense que je retenterai en 2026.
                     </p>
                 </section>
                 <img src="/img/placeholder.png" alt="" class="desc-img">

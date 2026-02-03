@@ -61,7 +61,7 @@ import NavbarHaut from '../components/navbarHaut.vue';
                         Ce type d’algorithme est assez simple à faire mais complexe à expliquer. L’algorithme se base sur cette affirmation : “Si 5 de mes 6 voisins sont bleus, je suis statistiquement bleu.” Ainsi, KNN se base sur ses voisins donc nous devons définir ce qu’est un voisin en définissant ce qu’est la distance dans notre algorithme.
                     </p>                    
                     <p>
-                        Prennons l'exemple de l'image à gauche, si la distance est de 1 (le cercle plein), alors les voisins les plus proches sont ceux dans ce cercle : 2 triangles et 1 carré. Ainsi, le disque au centre est un triangle selon KNN. Mais si la distance est de 2 (le cercle en pointillé), alors il y a 3 carrés pour 2 triangles, ainsi le disque est un carré.
+                        Prenons l'exemple de l'image à gauche, si la distance est de 1 (le cercle plein), alors les voisins les plus proches sont ceux dans ce cercle : 2 triangles et 1 carré. Ainsi, le disque au centre est un triangle selon KNN. Mais si la distance est de 2 (le cercle en pointillé), alors il y a 3 carrés pour 2 triangles, ainsi le disque est un carré.
                     </p>
                     <p>
                         La distance est donc une valeur très importante. Des chercheurs ont passé des années à chercher les meilleures distances, mais nos professeurs nous ont demandé de calculer la distance via le nombre de mots communs.

@@ -38,7 +38,7 @@ import NavbarHaut from '../components/navbarHaut.vue';
                 <section>
                     <h2>La page d'accueil</h2>
                     <p>
-                        D'abord une grande page d'accueil présentant les valeurs les plus importantes de l’entreprise puis présente les autres pages avec des liens vers celle ci
+                        D'abord une grande page d'accueil présentant les valeurs les plus importantes de l’entreprise puis présente les autres pages avec des liens vers celles ci.
                     </p>
                 </section>
                 
