@@ -150,7 +150,7 @@ img {
     list-style-type: none;
     display: flex;
     flex-direction: row-reverse;
-    gap: 70px;
+    gap: 30px;
     width: 100%;
     margin-right: 30px;
 }

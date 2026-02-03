@@ -143,13 +143,24 @@ img {
     color: white;
 }
 
+#entete > article {
+    width: 30%;
+}
+
 #entete > article > ul > li {
     color: white;
 }
 
+#entete > article > ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-height: 80px ;
+}
+
 #entete > section {
     color: white;
-    width: 20%;
+    width: 30%;
     padding-bottom: 15px;
     align-items: end;
     display: flex;
@@ -161,7 +172,8 @@ img {
 #entete > section > ul {
     list-style-type: none;
     display: flex;
-    justify-content: space-between;
+    flex-direction: row-reverse;
+    gap: 30px;
     width: 100%;
     margin-right: 30px;
 }
@@ -174,6 +186,10 @@ img {
 #entete > section > ul > li > img {
     width: 40px;
     height: 40px;
+}
+
+a {
+    color: white;
 }
 
 #entete > section a{
@@ -189,8 +205,7 @@ img {
 .desc {
   margin-bottom: 75px;
   gap: 100px;
-  min-height: 400px;
-  height: max-content;
+  height: 400px;
   display: flex;
   flex-direction: row;
   margin-left: 12%;
@@ -221,6 +236,7 @@ h1 > a {
 @media (max-width: 1200px) {
 
   .content > .desc {
+    height: max-content;
     width: 85%;
     margin-left: 10%;
     margin-right: 10%;
@@ -256,6 +272,7 @@ h1 > a {
         margin: 0px;
         padding-left: 0px;
         width: 100%;
+        justify-content: space-around;
     }
 
     #entete > section > ul > li {
@@ -263,8 +280,12 @@ h1 > a {
     }
 
     #entete > article {
-        width: 60%;
+        width: 90%;
         margin-bottom: 30px;
+    }
+
+    #entete > article > ul {
+        padding-left: 20px;
     }
 
     #entete > article > h3 {
