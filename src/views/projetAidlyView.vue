@@ -8,18 +8,17 @@ import NavbarHaut from '../components/navbarHaut.vue';
 <template>
     <NavbarHaut></NavbarHaut>
     <main>
-    <img src="/img/imgNDI.avif" alt="L'Isère, photo panoramique de nuit, David Leclerc, licence Creative Commons Attribution 3.0 Non Transposé.">
+    <img src="/img/AidlyBanner.jpg" alt="">
         <div id="entete">
             <article>
                     <h3>Projet réalisé avec :</h3>
                     <ul>
                         <li><a href="https://www.linkedin.com/in/l%C3%A9lio-michoulier-dyon-a80689209/">Lélio Michoullier-Dyons</a></li>
-                        <li><a href="https://www.linkedin.com/in/ali-kus-fr/">Ali Kus</a></li>
+                        <li><a href="https://www.linkedin.com/in/tanguy-grataloup/">Tanguy Grataloup</a></li>
                         <li><a href="https://www.linkedin.com/in/hashem-belal-921369206/">Hashem Belal</a></li>
-                        <li><a href="https://www.linkedin.com/in/benjamin-mitton-311594225/">Benjamin Mitton</a></li>
-                        <li><a href="https://www.linkedin.com/in/julien-beltrame-9b7a82225/">Julien Beltrame</a></li>
-                        <li><a href="https://www.linkedin.com/in/valentin-wouters/">Valentin Wouters</a></li>
-                        <li>et d'autres</li>
+                        <li>Mattis Flood</li>
+                        <li>Lucas Arrod</li>
+                        <li>Antoine Maurin</li>
                     </ul>
             </article>
             <section>
@@ -27,58 +26,47 @@ import NavbarHaut from '../components/navbarHaut.vue';
                     <li><img src="/img/vue-logo.png" alt=""></li>
                     <li><img src="/img/html.png" alt=""></li>
                     <li><img src="/img/CSS3_logo.svg" alt=""></li>
+                    <li><img src="/img/php-logo.png" alt=""></li>
                 </ul>
-                <a href="https://github.com/Hashemking21/Nuit-info-2025">Lien vers le dépot Git du projet</a>
+                <a href="https://github.com/Theswarmlord26/Aidly">Lien vers le dépot Git du projet</a>
             </section>
         </div>
         <div class="content">
             <div class="desc">
                 <section>
-                    <h2>C'est quoi la <a href="https://www.nuitdelinfo.com/">nuit de l'info</a></h2>
+                    <h2>C'est quoi ce projet ?</h2>
                     <p>
-                        La <a href="https://www.nuitdelinfo.com/">nuit de l'info</a> est une compétition de développement d'une application en une seule nuit, de 16h30 à 8h00. Cette compétition se faisait en groupe, nous étions 9 avec notamment Benjamin Mitton et Julien Beltrame qui étaient nos "coach" car ils travaillent déjà en entreprise chez <a href="https://www.avisto.com/fr/a-propos/implantations/avisto-grenoble/">Avisto Grenoble</a>.
+                        Projet de début de 2ème année de BUT, développé en 3 semaines, <a href="https://aidly.nfteam.ovh/">Aidly</a> est une application web visant à aider les aidants de personnes en perte d'autonomie. C'est une plateforme qui permet d'aider ces personnes dans l'organisation de leurs foyers d'aide.
                     </p>
                 </section>
-                <img id="imgRK" src="/img/ndiGroupe1.avif" alt="" class="desc-img">
-            </div>
-            <div class="desc">
-                <img src="/img/ndiGroupe.avif" alt="" class="desc-img">
-                <section >
-                    <h2>Le sujet</h2>
-                    <p>
-                        Nous y avons participé en 2025 et le sujet était de créer une application web centrée autour de la sensibilisation à la démarche NIRD. La démarche NIRD vise à accompagner les écoles et les gens vers l'adoption du numérique plus responsable et durable. C'est-à-dire montrer les alternatives européennes, libres et écologiquement responsables aux logiciels, OS, LLM ou autre.
-                    </p>
-                </section>
-            </div>
-            <div class="desc">
-                <section>
-                    <h2>Notre projet</h2>
-                    <p>
-                        Nous, nous avons choisi d'expliquer ces problématiques via le jeu. Mais comme nos coachs nous suppliaient de ne surtout pas faire de Quizz (ce qu'une grande partie des groupes ont fait), nous avons pris pour exemple le site <a href="https://luffah.xyz/bidules/Terminus/">Terminus</a>, une sorte de RPG textuel qui se joue en utilisant les commandes bash. Un jeu que j'ai découvert au lycée et qui m'avait vraiment aidé à apprendre ces commandes.
-                    </p>
-                    <p>
-                        Notre jeu lui se basait sur les mêmes mécaniques de jeux, les commandes, mais en plus le jeu cherche à raconter une histoire, écrite par moi-même, montrant des alternatives à Windows, Apple et chatGPT en les dé-sacralisant.
-                    </p>
-                </section>
-                <img src="/img/ndiTableau.avif" alt="" class="desc-img">
+                <img id="imgRK" src="/img/Aidly.png" alt="" class="desc-img">
             </div>
             <div class="desc">
                 <img src="/img/placeholder.png" alt="" class="desc-img">
-                <section>
-                    <h2>Les problèmes</h2>
+                <section >
+                    <h2>Les fonctionnalités</h2>
                     <p>
-                        Malheureusement, nous avons eu plusieurs problèmes notamment avec Git que certains du groupe ne connaissaient pas du tout, posant beaucoup d'erreurs au moment des merges. Ainsi, avec les retards de certaines fonctionnalités, nous n'avons pas réussi à correctement déployer l'application. 
+                        <a href="https://aidly.nfteam.ovh/">Aidly</a> propose de gérer plusieurs foyers d'aide, d'y inviter d'autres aidants ou l'aidé, de gérer un emploi du temps, une liste de tâches à faire, un coffre-fort numérique où déposer des fichiers, une messagerie d'où vous pouvez créer des fils de discussion et une carte montrant si un lieu est accessible pour les personnes à mobilité réduite, et qui permet également d'enregistrer des lieux importants pour le foyer. Et surtout toutes ces fonctionnalités sont partagées au reste du foyer.
                     </p>
                 </section>
             </div>
             <div class="desc">
+                <section>
+                    <h2>L'organisation</h2>
+                    <p>
+                        Dans le groupe, nous étions 5 du parcours développement d'application et 2 du parcours administration de réseau, ainsi le groupe s'est réparti suivant le parcours même si certains d'un parcours ont aidé ceux de l'autre et inversement. De mon côté, je me suis occupé de l'interface, j'ai réalisé en grande partie les maquettes et le développement du Front end de l'application.
+                    </p>
+                </section>
+                <img src="/img/Aidlyinterface.png" alt="" class="desc-img">
+            </div>
+            <div class="desc">
+                <img src="/img/AidlyGroupe.avif" alt="" class="desc-img">
                 <section>
                     <h2>Conclusion</h2>
                     <p>
-                        Ainsi, durant ce projet j'ai pu écrire l'histoire du jeu, m'introduire à Vue Js et comprendre comment gérer et participer à un projet quand on ne connaît pas tout le monde tout en étant sous le stress de la compétition. Malgré que nous n'ayons pas pu déployer le projet, j'ai adoré l'expérience et je pense que je retenterai en 2026.
+                        Ainsi, durant ce projet j'ai pu vraiment tester de nouvelles choses au niveau des interfaces, et même si je ne suis pas satisfait de l'intégralité du site, il reste des problèmes. J'ai énormément aimé ce projet, je me suis beaucoup amusé pendant ces 3 semaines de programmation intensive avec mes amis.
                     </p>
                 </section>
-                <img src="/img/placeholder.png" alt="" class="desc-img">
             </div>
         </div>
     </main>

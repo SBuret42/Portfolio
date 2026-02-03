@@ -14,7 +14,7 @@ import ProjetCompo from '../components/projetCompo.vue';
                 title="Application Web complète"
                 description="Réalisation d'une application web en groupe de 7, un projet vraiment complet et long : conceptualisation, réalisation de maquettes, organisation du groupe, etc... Un projet vraiment complet que j'ai adoré faire avec des amis."
                 :technos="['/img/vue-logo.png','/img/html.png','/img/CSS3_logo.svg','/img/php-logo.png']"
-                git="#"
+                git="https://github.com/Theswarmlord26/Aidly"
                 img="/img/Aidly.avif"
             />
             <ProjetCompo
