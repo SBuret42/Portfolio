@@ -210,9 +210,6 @@ h1 > a {
 }
 
 @media (max-width: 1200px) {
-    #entete > article > ul {
-        padding-left: 20px;
-    }
 
   .content > .desc {
     height: max-content;
@@ -258,8 +255,12 @@ h1 > a {
     }
 
     #entete > article {
-        width: 60%;
+        width: 90%;
         margin-bottom: 30px;
+    }
+
+    #entete > article > ul {
+        padding-left: 20px;
     }
 
     #entete > article > h3 {
