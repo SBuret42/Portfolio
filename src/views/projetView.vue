@@ -28,7 +28,7 @@ import ProjetCompo from '../components/projetCompo.vue';
             <ProjetCompo
                 link="/projetCodamasy"
                 title="Site Codamasy"
-                description="Réalisation d'un petit site de présentation de l'entreprise Codamasy durant un stage d'un mois durant l'été 2025."
+                description="Réalisation d'un site de présentation de l'entreprise Codamasy durant un stage d'un mois durant l'été 2025."
                 :technos="['/img/html.png','/img/CSS3_logo.svg']"
                 git="https://github.com/SBuret42/Site_Codamasy"
                 img="/img/codamasy.avif"
@@ -44,7 +44,7 @@ import ProjetCompo from '../components/projetCompo.vue';
             <ProjetCompo
                 link="/projetAnalyseBD"
                 title="Analyse d'une base de données"
-                description="Via une base de données publique sur les relevés de la police sur les accidents s’étant déroulés en France entre 2006 et 2023.  Nous avons, en groupe de 2, analysé l'accidentologie des accidents survenus dans le Grand Est chez les jeunes (18-25 ans) conducteurs ou passagers de voitures."
+                description="Via une base de données publiques sur les relevés de la police sur les accidents s’étant déroulés en France entre 2006 et 2023.  Nous avons, en groupe de 2, analysé l'accidentologie des accidents survenus dans le Grand Est chez les jeunes (18-25 ans) conducteurs ou passagers de voitures."
                 :technos="['/img/Postgresql_elephant.svg.png','/img/R_logo.svg.png']"
                 git="#"
                 img="/img/analyseBD.avif"
@@ -52,7 +52,7 @@ import ProjetCompo from '../components/projetCompo.vue';
             <ProjetCompo
                 link="/projetSiteInstitutionnel"
                 title="Site institutionnel"
-                description="Développement d'un site institutionnel avec un wireframe et une maquette graphique pour finir par un vrai site."
+                description="Développement d'un site institutionnel avec un wireframe et une maquette graphique pour finir par un site opérationnel."
                 :technos="['/img/html.png','/img/CSS3_logo.svg']"
                 git="#"
                 img="/img/projetsSCap.avif"

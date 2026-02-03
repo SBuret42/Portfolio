@@ -29,7 +29,7 @@ import NavbarHaut from '../components/navbarHaut.vue';
                 <section>
                     <h2>C'est quoi ce projet ?</h2>
                     <p>
-                        Durant le premier semestre de ma première année à l’IUT, j’ai dû réaliser en groupe un site institutionnel. Depuis la demande client par un wireframe et une maquette graphique pour finir par un vrai site. Nous devions présenter l’entreprise par ses valeurs, son engagement écologique et aussi  sur quoi et avec qui ils travaillent. Le site a été réalisé en HTML/CSS. Le site est structuré en 5 pages.
+                        Durant le premier semestre de ma première année à l’IUT, j’ai réaliser en groupe un site institutionnel. Depuis la demande client par un wireframe et une maquette graphique pour finir par un site opérationnel. Nous devions présenter l’entreprise par ses valeurs, son engagement écologique et aussi  sur quoi et avec qui ils travaillent. Le site a été réalisé en HTML/CSS. Le site est structuré en 5 pages.
                     </p>
                 </section>  
             </div>
@@ -38,7 +38,7 @@ import NavbarHaut from '../components/navbarHaut.vue';
                 <section>
                     <h2>La page d'accueil</h2>
                     <p>
-                        D'abord une grande page d'accueil présentant les valeurs les plus importantes de l’entreprise puis présente les autres pages avec des liens vers eux
+                        D'abord une grande page d'accueil présentant les valeurs les plus importantes de l’entreprise puis présente les autres pages avec des liens vers celle ci
                     </p>
                 </section>
                 

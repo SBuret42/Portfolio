@@ -72,7 +72,7 @@ import NavbarHaut from '../components/navbarHaut.vue';
                 <section>
                     <h2>Conclusion</h2>
                     <p>
-                        Ce projet a été ma première expérience professionnelle, j'ai beaucoup apprécié travailler chez Codamasy, c'est même la première fois que je réalisais un projet du tout début à la toute fin en touchant à absolument tout.
+                        Ce projet a été ma première expérience professionnelle, j'ai beaucoup apprécié travailler chez Codamasy, c'est même la première fois que je réalisais un projet du tout début à la toute fin en touchant à absolument tout. Le site est disponible, vous le retrouverez en suivant ce <a href="codamasy.fr">lien</a>.
                     </p>
                 </section>
             </div>
