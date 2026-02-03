@@ -7,7 +7,7 @@ import projetClassificateurView from '../views/projetClassificateurView.vue';
 import projetSiteInstitutionnelView from '../views/projetSiteInstitutionnelView.vue';
 import projetAnalyseBDView from '../views/projetAnalyseBDView.vue';
 import NotFoundView from '../views/NotFoundView.vue'
-import projetNDIView from '../views/projetAnalyseBDView.vue';
+import projetNDIView from '../views/projetNDIView.vue';
 
 const routes = [
   {
