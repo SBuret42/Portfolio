@@ -131,6 +131,7 @@ img {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    max-height: 80px ;
 }
 
 #entete > section {
@@ -209,6 +210,9 @@ h1 > a {
 }
 
 @media (max-width: 1200px) {
+    #entete > article > ul {
+        padding-left: 20px;
+    }
 
   .content > .desc {
     height: max-content;
