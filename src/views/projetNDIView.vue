@@ -153,6 +153,10 @@ img {
     height: 40px;
 }
 
+a {
+    color: white;
+}
+
 #entete > section a{
     text-decoration: none;
     color: #5b14ff;
