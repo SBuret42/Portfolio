@@ -119,8 +119,18 @@ img {
     color: white;
 }
 
+#entete > article {
+    width: 30%;
+}
+
 #entete > article > ul > li {
     color: white;
+}
+
+#entete > article > ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 #entete > section {
