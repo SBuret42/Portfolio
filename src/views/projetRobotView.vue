@@ -75,7 +75,6 @@ import NavbarHaut from '../components/navbarHaut.vue';
 </template>
 
 <style scoped>
-
 .content {
     min-height: 70vh;
     margin-left: 0px;
@@ -108,13 +107,24 @@ img {
     color: white;
 }
 
+#entete > article {
+    width: 30%;
+}
+
 #entete > article > ul > li {
     color: white;
 }
 
+#entete > article > ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-height: 80px ;
+}
+
 #entete > section {
     color: white;
-    width: 20%;
+    width: 30%;
     padding-bottom: 15px;
     align-items: end;
     display: flex;
@@ -126,7 +136,8 @@ img {
 #entete > section > ul {
     list-style-type: none;
     display: flex;
-    justify-content: space-between;
+    flex-direction: row-reverse;
+    gap: 70px;
     width: 100%;
     margin-right: 30px;
 }
@@ -139,6 +150,10 @@ img {
 #entete > section > ul > li > img {
     width: 40px;
     height: 40px;
+}
+
+a {
+    color: white;
 }
 
 #entete > section a{
@@ -221,6 +236,7 @@ h1 > a {
         margin: 0px;
         padding-left: 0px;
         width: 100%;
+        justify-content: space-around;
     }
 
     #entete > section > ul > li {
@@ -228,8 +244,12 @@ h1 > a {
     }
 
     #entete > article {
-        width: 60%;
+        width: 90%;
         margin-bottom: 30px;
+    }
+
+    #entete > article > ul {
+        padding-left: 20px;
     }
 
     #entete > article > h3 {

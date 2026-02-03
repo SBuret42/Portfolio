@@ -86,7 +86,6 @@ import NavbarHaut from '../components/navbarHaut.vue';
 </template>
 
 <style scoped>
-
 .content {
     min-height: 70vh;
     margin-left: 0px;
@@ -149,7 +148,7 @@ img {
     list-style-type: none;
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-between;
+    gap: 70px;
     width: 100%;
     margin-right: 30px;
 }
@@ -248,6 +247,7 @@ h1 > a {
         margin: 0px;
         padding-left: 0px;
         width: 100%;
+        justify-content: space-around;
     }
 
     #entete > section > ul > li {
