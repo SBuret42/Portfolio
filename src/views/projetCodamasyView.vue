@@ -29,10 +29,10 @@ import NavbarHaut from '../components/navbarHaut.vue';
                         Durant l'été 2025, j'ai pu faire un stage chez Codamasy Audits & Conseils durant 1 mois. Durant ce mois, il m'a été demandé de concevoir, présenter, développer, mettre en ligne et référencer le site vitrine de l'entreprise. Le site avait uniquement pour but de montrer ce que propose Codamasy en vue d'augmenter le nombre de clients de l'entreprise.
                     </p>
                 </section>
-                <img id="imgRK" src="/img/ndiGroupe1.avif" alt="" class="desc-img">
+                <img id="imgRK" src="/img/placeholder.png" alt="" class="desc-img">
             </div>
             <div class="desc">
-                <img src="/img/ndiGroupe.avif" alt="" class="desc-img">
+                <img src="/img/placeholder.png" alt="" class="desc-img">
                 <section >
                     <h2>Conceptualisation</h2>
                     <p>
@@ -47,7 +47,7 @@ import NavbarHaut from '../components/navbarHaut.vue';
                         Quand mon cahier des charges a été validé, j'ai pu commencer à maquetter le site d'abord sous forme de wireframe puis de maquette graphique. J'en ai fait un site mono-page pour fluidifier la lecture jusqu'à arriver à une proposition de contact. J'ai longuement pu débattre avec ma tutrice sur la maquette pour vraiment cerner ce qu'elle attendait et le représenter au mieux.
                     </p>
                 </section>
-                <img src="/img/ndiTableau.avif" alt="" class="desc-img">
+                <img src="/img/placeholder.png" alt="" class="desc-img">
             </div>
             <div class="desc">
                 <img src="/img/placeholder.png" alt="" class="desc-img">
