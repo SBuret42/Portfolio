@@ -125,7 +125,7 @@ img {
 
 #entete > section {
     color: white;
-    width: 20%;
+    width: 30%;
     padding-bottom: 15px;
     align-items: end;
     display: flex;
@@ -137,6 +137,7 @@ img {
 #entete > section > ul {
     list-style-type: none;
     display: flex;
+    flex-direction: row-reverse;
     justify-content: space-between;
     width: 100%;
     margin-right: 30px;
