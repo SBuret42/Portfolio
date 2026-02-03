@@ -22,7 +22,6 @@ import NavbarHaut from '../components/navbarHaut.vue';
                     <li><img src="/img/html.png" alt=""></li>
                     <li><img src="/img/CSS3_logo.svg" alt=""></li>
                 </ul>
-                <a href="#">Lien vers le dépot Git du projet</a>
             </section>
         </div>
         <div class="content">

@@ -21,7 +21,6 @@ import NavbarHaut from '../components/navbarHaut.vue';
                         <li><img src="/img/Postgresql_elephant.svg.png" alt=""></li>
                         <li><img src="/img/R_logo.svg.png" alt=""></li>
                     </ul>
-                    <a href="#">Lien vers le dépot du projet</a>
                 </section>
             </div>
         <div class="content">

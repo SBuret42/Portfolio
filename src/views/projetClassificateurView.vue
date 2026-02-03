@@ -20,7 +20,6 @@ import NavbarHaut from '../components/navbarHaut.vue';
                     <ul>
                         <li><img src="/img/java_logo_icon_169577.png" alt=""></li>
                     </ul>
-                    <a href="#">Lien vers le dépot Git du projet</a>
                 </section>
             </div>
         <div class="content">
